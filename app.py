@@ -3,10 +3,10 @@ import requests
 import pandas as pd
 
 # Alpha Vantage API key
-API_KEY = "HA68S2F46ZB94J6E"
+API_KEY = st.secrets["alpha_vantage_api_key"]
 
 # NewsAPI key
-NEWS_API_KEY = "59fc0b6559b541a7a40e87c7efbed402"
+NEWS_API_KEY = st.secrets["newsapi_key"]
 
 # Stock symbol mapping
 stock_symbols = {
